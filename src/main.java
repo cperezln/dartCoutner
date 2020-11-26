@@ -5,5 +5,6 @@ public class main {
         PlayerList pl = new PlayerList();
         pl.addPlayer(p1);
         System.out.println(pl);
+        //sasasasa
     }
 }
