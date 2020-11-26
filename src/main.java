@@ -3,8 +3,11 @@ public class main {
         Player p1 = new Player();
         System.out.println(p1);
         PlayerList pl = new PlayerList();
+        Player p2 = new Player("Rodrigo", 23);
         pl.addPlayer(p1);
+        pl.addPlayer(p2);
         System.out.println(pl);
-        //sasasasa
+        IOFiles fl = new IOFiles("prueba");
+        fl.printPlayers(pl);
     }
 }
